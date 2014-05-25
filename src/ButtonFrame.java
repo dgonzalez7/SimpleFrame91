@@ -1,12 +1,12 @@
 import javax.swing.*;
 
-public class SimpleFrame extends JFrame {
+public class ButtonFrame extends JFrame {
 	
 	JButton load = new JButton("Load");
 	JButton save = new JButton("Save");
 	JButton unsubscribe = new JButton("Unsubscribe");
 
-	public SimpleFrame()
+	public ButtonFrame()
 	{
 		super("Button Frame");
 		setSize(340, 170);
@@ -36,6 +36,6 @@ public class SimpleFrame extends JFrame {
 	public static void main(String[] args) 
 	{
 		setLookAndFeel();
-		SimpleFrame bf = new SimpleFrame();
+		ButtonFrame bf = new ButtonFrame();
 	}
 }
